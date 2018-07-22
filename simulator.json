@@ -1,0 +1,10 @@
+{
+  "simulation_runs": 10,
+  "simulation_type":"fullFlight",
+  "simulation_modules": {
+    "modules":[{"kinematic":"kinematics.json"},{"atmospheric":"atmospherics.json"}]
+  },
+  "rocket_specs":"rocket.json",
+  "simulation_output_dir":"/results",
+  "custom":""
+}
