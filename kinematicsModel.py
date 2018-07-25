@@ -13,6 +13,10 @@ the GPS position, acceleration, rotation of a specific rocket in time.
 # from math import factorial
 # import helper
 
+class KinematicsModel:
+    def __init__(self, inputFile):
+        pass
+
 #STEP 1: read a rocket object, read time (normally t = 0)
 
 #STEP 2: compute kinematics

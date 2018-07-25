@@ -11,3 +11,7 @@ The atmospheric model class describes a specific atmospheric environments. This 
 # import IPython.display as IPy
 # from math import factorial
 # import helper
+
+class AtmosphericModel:
+    def __init__(self, inputFile):
+        pass

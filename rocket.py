@@ -14,4 +14,7 @@ the properties of the rocket and not its flight behaviour for example.
 # from math import factorial
 # import helper
 
+class Rocket:
+    def __init__(self, inputFile):
+        pass
 #STEP 1: instantiate to objects according to input configs
