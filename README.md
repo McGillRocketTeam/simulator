@@ -7,7 +7,7 @@
 3. simulation.py instantiates Rocket object and models (eg. kinematic and atmospheric models)
 
 ```
-Flow: Simulator() <--(reads)  simulator.json
+Flow:     Simulator() <--(reads)  simulator.json
             |      \
             |       \        ... ( x simulation_runs)
             v        v
