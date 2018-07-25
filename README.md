@@ -1,7 +1,6 @@
-# simulator
-### Code base for McGill Rocket Team's flight simulator
+## Code base for McGill Rocket Team's flight simulator
 
-#### basic code structure
+#### Basic code structure
 
 1. run program on cmdline "python simulator.py"
 2. simulator.py instantiates simulations from simulation.py
