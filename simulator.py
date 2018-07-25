@@ -24,12 +24,8 @@ class Simulator:
     def __init__(self, inputFile):
         #STEP 1: read, validate, and store values from input JSON config file
         try:
-            if inputFile:
-                with open(inputFile) as json_file:
-                    json_data = json.load(json_file)
-            else:
-                with open("simulator.json") as json_file:
-                    json_data = json.load(json_file)
+            with open(inputFile) as json_file:
+                json_data = json.load(json_file)
 
             pprint(json_data)                       #pretty-print
 
@@ -64,7 +60,7 @@ def main():
         sim = Simulator(sys.argv[1])
     else:
         print('Running simulator with default config file: simulator.json')
-        sim = Simulator("simulator.json")
+        sim = Simulator("template_configs/simulator.json")
 
 
 if __name__ == "__main__":
