@@ -1,4 +1,4 @@
-## Code base for McGill Rocket Team's flight simulator
+## McGill Rocket Team's flight simulator
 
 #### Basic code structure
 
