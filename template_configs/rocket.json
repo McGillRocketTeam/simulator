@@ -1,13 +1,50 @@
 {
-  "motor_specs":{
-      "":"",
-      "":""
+  "name": "my_rocket",
+  "motor_specs": {
+    "motorType": "",
+    "fuel": {
+      "fuelName": "",
+      "fuelMass": "",
+      "fuelVolume": "",
+      "fuelPressure": "",
+      "fuelOutletDiameter": "",
+      "fuelPressurant": ""
     },
+    "oxidizer": {
+      "oxName":"",
+      "oxMass":"",
+      "oxVolume":"",
+      "oxPressure":"",
+      "oxOutletDiameter":"",
+      "oxPressurant":"",
+      "LOxFraction":""
+    },
+    "chamber": {
+      "chamberID":"",
+      "chamberLength":"",
+      "fuelLength":"",
+      "preCombustionLength":"",
+      "portDiameter":""
+    },
+    "nozzle": {
+      "nozzleType":"",
+      "inletRadius":"",
+      "throatRadius":"",
+      "areaRatio":"",
+      "outletAngle":"",
+      "exhaustk":"",
+      "exhaustMolecularWeight":"",
+      "efficiency":"0.9"
+    },
+    "thrustCurve":"thrustCurve.csv",
+    "verbose":"True"
+  },
   "airframe_specs":{
-      "":"",
-      "":""
-    },
-  "constants":{
-    "":""
-  }
+      "emptyMass":"",
+      "cg":"",
+      "cp":"",
+      "diameter":"",
+      "cd":""
+  },
+  "verbose":"True"
 }
