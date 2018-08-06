@@ -34,8 +34,8 @@ class KinematicsModel:
         def __init__(self, rocketXDot, rocketQDot, rocketForce, rocketTorque):
             # TODO: Validate types
             # Outputs should be numpy arrays
-            self.rocketXDot = rocketVelocity
-            self.rocketQDot = rocketQuaternionDerivative
+            self.rocketXDot = rocketXDot
+            self.rocketQDot = rocketQDot
             self.rocketForce = rocketForce
             self.rocketTorque = rocketTorque
 
