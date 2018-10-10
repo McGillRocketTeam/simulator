@@ -127,12 +127,19 @@ class KinematicsModel:
         qDot = np.append(sDot, vDot)
 
         # Angle of attack
-
+        Vhat = xDot/ (np.sqrt (np.dot(xDot,xDot) ) )
+        alpha = np.arccos( np.dot(Vhat, roll)) #in radians
+        
+        
         # Reynolds number
-
+        #Need to retrieve rho, thetaA, and theta0 (also maybe gamma?) from atmospheric model, as well as rocket length
+        
         # Mach number
-
-        # Fin angle of attack
+        #M = np.sqrt(np.dot(xDot,xDot) / (gamma * Rsp * thetaA)) #gamma = adiabatic constant
+                                                                #Rsp = specific gas constant
+                                                                #thetaA = atmospheric temperature
+        # Fin angle of attack - this depends on number of fins
+        #The paper makes an approximation here, but it'd be just as good to figure this out from aerostructures and not approximate
 
         # Force
         force = 0
