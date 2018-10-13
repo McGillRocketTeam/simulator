@@ -25,3 +25,6 @@ If you want to use different config files, you can:
 1. run the program with the simulator config file as a cmdline argument like "python simulator.py myConfig.json"
 2. in the simulator config file that you decide to use, specify the other config files that you want. Eg. "simulation_models": {"kinematic":"myKinematics.json", "atmospheric":"myAtmospherics.json"}
 
+#### Workflow
+
+Please ONLY branch off Development branch to work on your features/fixes. Create a Pull Request if you'd like to merge to Development.
